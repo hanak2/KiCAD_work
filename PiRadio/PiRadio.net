@@ -1,0 +1,46 @@
+(export (version D)
+  (design
+    (source C:\Users\hanajiri\Documents\GitHub\KiCAD_work\PiRadio\PiRadio.sch)
+    (date "2016/12/23 13:31:27")
+    (tool "Eeschema 4.0.1-stable")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source PiRadio.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref U1)
+      (value HMC599)
+      (footprint SOT-89)
+      (libsource (lib MyICs) (part HMC599))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 585CA7F8)))
+  (libparts
+    (libpart (lib MyICs) (part HMC599)
+      (description "Low Noise Amp")
+      (footprints
+        (fp SOT*))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) HMC599)
+        (field (name Footprint) SOT-89))
+      (pins
+        (pin (num 1) (name OUT) (type power_out))
+        (pin (num 2) (name GND) (type power_out))
+        (pin (num 3) (name IN) (type input)))))
+  (libraries
+    (library (logical MyICs)
+      (uri C:\Users\hanajiri\Documents\GitHub\KiCAD_work\MyLibrary\MyICs.lib)))
+  (nets
+    (net (code 1) (name "Net-(U1-Pad1)")
+      (node (ref U1) (pin 1)))
+    (net (code 2) (name "Net-(U1-Pad2)")
+      (node (ref U1) (pin 2)))
+    (net (code 3) (name "Net-(U1-Pad3)")
+      (node (ref U1) (pin 3)))))
