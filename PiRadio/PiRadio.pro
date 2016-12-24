@@ -1,4 +1,4 @@
-update=2016/12/23 13:19:08
+update=2016/12/23 17:09:16
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=C:/Users/hanajiri/Documents/GitHub/KiCAD_work/MyLibrary/MyICs
+LibName31=C:/Users/hanajiri/Documents/GitHub/KiCAD_work/MyLibrary/MyCONNs
