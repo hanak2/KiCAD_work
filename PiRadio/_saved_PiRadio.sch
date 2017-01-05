@@ -259,12 +259,12 @@ $EndComp
 $Comp
 L GNDA #PWR06
 U 1 1 585CE07D
-P 6250 2950
-F 0 "#PWR06" H 6250 2700 50  0001 C CNN
-F 1 "GNDA" H 6250 2800 50  0000 C CNN
-F 2 "" H 6250 2950 50  0000 C CNN
-F 3 "" H 6250 2950 50  0000 C CNN
-	1    6250 2950
+P 3050 3500
+F 0 "#PWR06" H 3050 3250 50  0001 C CNN
+F 1 "GNDA" H 3050 3350 50  0000 C CNN
+F 2 "" H 3050 3500 50  0000 C CNN
+F 3 "" H 3050 3500 50  0000 C CNN
+	1    3050 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -674,9 +674,9 @@ F 3 "" H 1200 2300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 5200 1250 2    60   Input ~ 0
-IL
-Text GLabel 5200 1100 2    60   Input ~ 0
 IH
+Text GLabel 5200 1100 2    60   Input ~ 0
+IL
 Text GLabel 5200 950  2    60   Input ~ 0
 QL
 Text GLabel 5200 800  2    60   Input ~ 0
@@ -4043,7 +4043,7 @@ Q_P
 Text Label 4950 950  0    60   ~ 0
 Q_N
 Text Label 5050 1250 0    60   ~ 0
-I_N
-Text Label 5050 1100 0    60   ~ 0
 I_P
+Text Label 5050 1100 0    60   ~ 0
+I_N
 $EndSCHEMATC
